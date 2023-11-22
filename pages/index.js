@@ -6,8 +6,8 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>LLMNight-20231226-11201730</title>
-          <meta property="og:title" content="LLMNight-20231226-11201730" />
+          <title>LLMNight-20231226</title>
+          <meta property="og:title" content="LLMNight-20231226" />
         </Head>
         <header data-role="Header" className="home-header nav_main">
           <div className="home-container01">
