@@ -8,6 +8,7 @@ const Home = (props) => {
         <Head>
           <title>LLMNight-20231226</title>
           <meta property="og:title" content="LLMNight-20231226" />
+          <meta property="og:image" content="/public/target.png">
         </Head>
         <header data-role="Header" className="home-header nav_main">
           <div className="home-container01">
