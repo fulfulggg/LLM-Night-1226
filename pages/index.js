@@ -38,7 +38,7 @@ const Home = (props) => {
             src="/external/llmnight_f_231122.mp4"
             loop
             muted
-            poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+            poster="/public/target.png" width="300" height="300"
             preload="auto"
             autoPlay
             playsInline
@@ -76,7 +76,7 @@ const Home = (props) => {
               src="/external/feature_small.mov"
               loop
               muted
-              poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+              poster="/public/target.png" width="300" height="300"
               preload="auto"
               autoPlay
               playsInline
@@ -279,7 +279,7 @@ const Home = (props) => {
               src="/external/christmas.mp4"
               loop
               muted
-              poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+              poster="/public/target.png" width="300" height="300"
               preload="auto"
               autoPlay
               playsInline
