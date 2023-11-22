@@ -39,6 +39,7 @@ const Home = (props) => {
             loop
             muted
             poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+            preload="auto"
             autoPlay
             playsInline
             className="home-video"
