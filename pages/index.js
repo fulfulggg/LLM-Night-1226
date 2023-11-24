@@ -283,14 +283,14 @@ const Home = (props) => {
               <img
                 src="/external/concept.svg"
                 alt="image"
-                className="home-image2"
+                className="home-image5"
               />
             </div>
             <div className="home-container27">
               <img
                 src="/external/character.svg"
                 alt="image"
-                className="home-image3"
+                className="home-image6"
               />
             </div>
           </div>
@@ -1343,7 +1343,7 @@ const Home = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .home-image2 {
+          .home-image5 {
             width: auto;
             min-width: 600px;
             margin-top: var(--dl-space-space-threeunits);
@@ -1360,7 +1360,7 @@ const Home = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .home-image3 {
+          .home-image6 {
             width: auto;
             height: auto;
             min-width: 600px;
@@ -2712,13 +2712,13 @@ const Home = (props) => {
             .home-container26 {
               align-self: center;
             }
-            .home-image2 {
+            .home-image5 {
               min-width: 350px;
             }
             .home-container27 {
               justify-content: center;
             }
-            .home-image3 {
+            .home-image6 {
               min-width: 350px;
             }
             
