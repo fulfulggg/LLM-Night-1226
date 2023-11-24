@@ -259,34 +259,21 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-                  
-        // <div className="home-taxnomy">
-        //   <h1 className="home-text56">
-        //     <span>Taxonomy &amp; Scope</span>
-        //     <br></br>
-        //   </h1>
-        //   <span className="home-text59">GenAI周りの幅広い領域が対象</span>
-        //   <span className="home-text60">
-        //     <span>WIP</span>
-        //     <br></br>
-        //   </span>
-        // </div>
-
         <div className="home-taxnomy">
           <h1 className="home-text56">
             <span>Taxonomy &amp; Scope</span>
             <br></br>
           </h1>
           <span className="home-text59">GenAI周りの幅広い領域が対象</span>
-          <div className="home-container25">
-            <div className="home-container26">
+          <div className="home-container27">
+            <div className="home-container28">
               <img
                 src="/external/concept.svg"
                 alt="image"
                 className="home-image5"
               />
             </div>
-            <div className="home-container27">
+            <div className="home-container29">
               <img
                 src="/external/character.svg"
                 alt="image"
@@ -1325,7 +1312,7 @@ const Home = (props) => {
             padding-bottom: 0px;
           }
           
-          .home-container25 {
+          .home-container27 {
             width: auto;
             height: auto;
             display: flex;
@@ -1335,7 +1322,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .home-container26 {
+          .home-container28 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -1352,7 +1339,7 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-threeunits);
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-container27 {
+          .home-container29 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -1646,13 +1633,13 @@ const Home = (props) => {
               font-family: Raleway;
             }
 
-            .home-container25 {
+            .home-container27 {
               flex-direction: column;
             }
-            .home-container26 {
+            .home-container28 {
               align-self: center;
             }
-            .home-container27 {
+            .home-container29 {
               align-self: center;
             }
             
@@ -2709,13 +2696,13 @@ const Home = (props) => {
               padding-bottom: 0px;
             }
             
-            .home-container26 {
+            .home-container28 {
               align-self: center;
             }
             .home-image5 {
               min-width: 350px;
             }
-            .home-container27 {
+            .home-container29 {
               justify-content: center;
             }
             .home-image6 {
