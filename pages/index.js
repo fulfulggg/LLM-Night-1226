@@ -259,17 +259,43 @@ const Home = (props) => {
             </div>
           </div>
         </div>
+                  
+        // <div className="home-taxnomy">
+        //   <h1 className="home-text56">
+        //     <span>Taxonomy &amp; Scope</span>
+        //     <br></br>
+        //   </h1>
+        //   <span className="home-text59">GenAI周りの幅広い領域が対象</span>
+        //   <span className="home-text60">
+        //     <span>WIP</span>
+        //     <br></br>
+        //   </span>
+        // </div>
+
         <div className="home-taxnomy">
           <h1 className="home-text56">
             <span>Taxonomy &amp; Scope</span>
             <br></br>
           </h1>
           <span className="home-text59">GenAI周りの幅広い領域が対象</span>
-          <span className="home-text60">
-            <span>WIP</span>
-            <br></br>
-          </span>
+          <div className="home-container25">
+            <div className="home-container26">
+              <img
+                src="/external/concept.svg"
+                alt="image"
+                className="home-image2"
+              />
+            </div>
+            <div className="home-container27">
+              <img
+                src="/external/character.svg"
+                alt="image"
+                className="home-image3"
+              />
+            </div>
+          </div>
         </div>
+                  
         <div className="home-gallery">
           <div className="home-gallery1">
             <h1 className="home-text63">Atmosphere</h1>
@@ -1298,18 +1324,53 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             padding-bottom: 0px;
           }
-          .home-text60 {
-            color: rgb(199, 199, 199);
-            width: 75%;
-            font-size: 36px;
+          
+          .home-container25 {
+            width: auto;
+            height: auto;
+            display: flex;
             align-self: center;
-            text-align: center;
-            font-family: 'Raleway';
-            margin-left: 0px;
-            padding-top: var(--dl-space-space-sixunits);
-            margin-right: 0px;
-            padding-bottom: var(--dl-space-space-sixunits);
+            align-items: flex-start;
+            padding-left: var(--dl-space-space-threeunits);
+            padding-right: var(--dl-space-space-threeunits);
+            justify-content: space-between;
           }
+          .home-container26 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .home-image2 {
+            width: auto;
+            min-width: 600px;
+            margin-top: var(--dl-space-space-threeunits);
+            object-fit: cover;
+            margin-left: var(--dl-space-space-threeunits);
+            margin-right: var(--dl-space-space-threeunits);
+            margin-bottom: var(--dl-space-space-threeunits);
+          }
+          .home-container27 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .home-image3 {
+            width: auto;
+            height: auto;
+            min-width: 600px;
+            margin-top: var(--dl-space-space-threeunits);
+            object-fit: cover;
+            margin-left: var(--dl-space-space-threeunits);
+            margin-right: var(--dl-space-space-threeunits);
+            margin-bottom: var(--dl-space-space-threeunits);
+          }
+          
           .home-gallery {
             flex: 0 0 auto;
             width: 100%;
@@ -1584,6 +1645,17 @@ const Home = (props) => {
               text-align: center;
               font-family: Raleway;
             }
+
+            .home-container25 {
+              flex-direction: column;
+            }
+            .home-container26 {
+              align-self: center;
+            }
+            .home-container27 {
+              align-self: center;
+            }
+            
             .home-text63 {
               font-size: 72px;
               font-style: normal;
@@ -1821,9 +1893,11 @@ const Home = (props) => {
               margin-bottom: var(--dl-space-space-threeunits);
               padding-bottom: 0px;
             }
-            .home-text60 {
-              text-align: center;
-            }
+            
+            // .home-text60 {
+            //   text-align: center;
+            // }
+            
             .home-text63 {
               font-size: 64px;
               font-style: normal;
@@ -2634,6 +2708,20 @@ const Home = (props) => {
               margin-bottom: var(--dl-space-space-threeunits);
               padding-bottom: 0px;
             }
+            
+            .home-container26 {
+              align-self: center;
+            }
+            .home-image2 {
+              min-width: 350px;
+            }
+            .home-container27 {
+              justify-content: center;
+            }
+            .home-image3 {
+              min-width: 350px;
+            }
+            
             .home-gallery1 {
               position: relative;
               padding-top: var(--dl-space-space-sixunits);
