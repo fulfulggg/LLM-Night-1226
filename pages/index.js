@@ -268,14 +268,14 @@ const Home = (props) => {
           <div className="home-container27">
             <div className="home-container28">
               <img
-                src="/external/concept.svg"
+                src="/external/Concept.svg"
                 alt="image"
                 className="home-image5"
               />
             </div>
             <div className="home-container29">
               <img
-                src="/external/character.svg"
+                src="/external/Character.svg"
                 alt="image"
                 className="home-image6"
               />
