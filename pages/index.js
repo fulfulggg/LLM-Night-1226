@@ -1881,10 +1881,6 @@ const Home = (props) => {
               padding-bottom: 0px;
             }
             
-            // .home-text60 {
-            //   text-align: center;
-            // }
-            
             .home-text63 {
               font-size: 64px;
               font-style: normal;
